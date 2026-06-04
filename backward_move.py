@@ -9,3 +9,13 @@ for i in s:
     else:
         ns += chr(ord(x)+26)
 print(ns)
+
+ns=""
+#another way
+alpha = "abcdefghijklmnopqrstuvwxyz"
+for i in s:
+    for j in alpha:
+        if i==j:
+            ns += alpha[(alpha.index(j)-k)]
+
+print(ns)
