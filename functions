@@ -1,0 +1,23 @@
+append
+extend
+clear
+index
+reverse
+sort
+insert
+pop
+del
+
+functions:
+sum
+len
+all
+any
+min
+max
+concatenation(+)
+repetition(*)
+in operator
+not in operator
+slicing
+
