@@ -2,7 +2,7 @@ values = sorted(list(map(int, input("Enter the numbers:").split())))
 print(values)
 target = int(input())
 
-low = values[0]
+low = 0
 high = len(values)-1
 mid = 0
 
@@ -17,7 +17,7 @@ while low<=high:
     elif target>values[mid]:
         low = mid +1
     else:
-        high = mid
+        high = mid-1
 
 if not found:
     print(-1)
